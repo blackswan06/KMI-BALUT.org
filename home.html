@@ -1,1 +1,82 @@
-html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Organisasi</title>
+    <style>
+        body {
+            background-image: url('image/logokmi-balut.jpg');
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        .search-box input[type="text"] {
+            padding: 8px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            width: 250px;
+        }
+
+        .search-box input[type="text"]:focus {
+            outline: none;
+        }
+
+        main {
+            padding: 20px;
+            background-color: white;
+        }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="bg-image">
+
+    <!-- Header -->
+    <header class="bg-primary bg-gradient">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+                  <a class="navbar-brand">
+                    <div class="logo">
+                        <img src="image/logokmi-balut.jpg" alt="Logo Organisasi">
+                    </div>
+                  </a>
+            </div>
+            <ul class="nav navbar-nav">
+                    <a class="btn btn-secondary text-white" href="#">Beranda</a>
+                    <a class="btn btn-secondary text-white" href="#">Tentang KMI-BALUT</a>
+                    <a class="btn btn-secondary text-white" href="#">Agenda Kegiatan</a>
+                    <a class="btn btn-secondary text-white" href="#">Galeri</a>
+            </ul>
+          </div><div class="search-box">
+            <input type="text" placeholder="Cari..." id="searchInput">
+        </div>
+        </nav>
+        
+    </header>
+    <main>
+        <div class="background-image:url('image/logokmi-balut')">
+        <h1>Selamat datang di Website Organisasi KMI-BALUT</h1>
+        <p>Ini adalah halaman utama dari organisasi kami.</p>
+        </div>
+    </main>
+
+</body>
+</html>
+
